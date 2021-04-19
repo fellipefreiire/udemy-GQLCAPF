@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --ext js,graphql"
   },
   "keywords": [],
   "author": "Felipe Freire Alves de Oliveira <fellipefreiire3@gmail.com> (https://github.com/fellipefreiire)",
   "license": "MIT",
   "dependencies": {
+    "apollo-server": "^2.23.0",
+    "graphql": "^15.5.0",
+    "graphql-import": "^1.0.2",
     "knex": "^0.95.4",
     "mysql": "^2.18.1"
   }
